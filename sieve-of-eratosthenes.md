@@ -59,9 +59,7 @@ In this algorithm,
 
 
 
-![](https://miro.medium.com/max/1750/0*auO27notXYgAZXUP.gif)
-
-![Source: Internet](https://miro.medium.com/freeze/max/60/0*auO27notXYgAZXUP.gif?q=20)
+![Source: Internet](https://miro.medium.com/max/1750/0*auO27notXYgAZXUP.gif)
 
 The above figure makes it more clear.  
 We first encounter 2 which has so far not been crossed off\(1 cannot cancel others, else no one will survive\). So we can safely infer that 2 is prime.  
