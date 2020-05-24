@@ -1,6 +1,6 @@
 # Hey there!
 
-It's awesome to see you here! Hope so you will enjoy going though my articles. 
+It's awesome to see you here! Hope so you will enjoy going through my articles. 
 
 This repository is basically devoted to my learning experience. Here I will be posting all the stuffs\(basically algorithms\) that I can lay my hands on.
 
