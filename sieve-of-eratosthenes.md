@@ -34,13 +34,13 @@ This process can be further optimized by just running the loop from 2 to square 
 Well here’s why we do that thing:  
 If x \* y = N  
 then we can also write  
-x \* y = N = √_N \*_ √_N_  
-If _x_ ≤ √N, then _y_ ≥ √N and vice-versa. Thus if x divides N, then you just don’t have to check if y also divides it, because it does.
+x \* y = N = √N * √N 
+If x ≤ √N, then y ≥ √N and vice-versa. Thus if x divides N, then you just don’t have to check if y also divides it, because it does.
 
 ## Sieve of Eratosthenes <a id="b4d7"></a>
 
 The above discussed way worked just fine. But imagine finding all prime numbers up to N. In that case you will have to repeat above discussed approach for every number less than N. So time complexity will be **O\(N√N\)**.  
-That’s when **Sieve of Eratosthenes** comes into picture. It’s time complexity is _O_\(_n_ log log _n_\).
+That’s when **Sieve of Eratosthenes** comes into picture. It’s time complexity is O(n log log n).
 
 I have a cool analogy.
 
