@@ -34,7 +34,7 @@ This process can be further optimized by just running the loop from 2 to square 
 Well here’s why we do that thing:  
 If x \* y = N  
 then we can also write  
-x \* y = N = √N * √N 
+x \* y = N = √N \* √N \
 If x ≤ √N, then y ≥ √N and vice-versa. Thus if x divides N, then you just don’t have to check if y also divides it, because it does.
 
 ## Sieve of Eratosthenes <a id="b4d7"></a>
