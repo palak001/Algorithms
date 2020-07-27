@@ -2,13 +2,13 @@
 
 ![Source](https://cdn-images-1.medium.com/max/1200/0*tyZqTVxTLWiz1r3-)
 
-In my previous article, I have discussed [Linear Regression with one variable](https://medium.com/swlh/linear-regression-with-one-variable-f205db7208ab?source=friends_link&sk=2cc612f4ad21c607eef818cdf9f8c991). There I have briefly covered the Linear regression algorithm, cost function and gradient descent. These concepts form the basis for this article. So if you’re not that comfortable with them, consider referring to my previous article.
+In my previous article, I have discussed [Linear Regression with one variable](https://medium.com/swlh/linear-regression-with-one-variable-f205db7208ab?source=friends_link&sk=2cc612f4ad21c607eef818cdf9f8c991). There I have briefly covered the Linear regression algorithm, cost function, and gradient descent. These concepts form the basis for this article. So if you’re not that comfortable with them, consider referring to my previous article.
 
 So far we have considered a simple problem, where the output variable depended on just one feature\(i.e x\).
 
 Eg: Predicting house prices, where prices of a house just depend on its size.
 
-But often, we don’t have that simple dataset. Most of the time, the output variable depends on more than one feature. For eg. the price of a house depends on many other factors like the age of the house, location, no. of bedrooms, no. of floors, infrastructure etc.
+But often, we don’t have that simple dataset. Most of the time, the output variable depends on more than one feature. For eg, the price of a house depends on many other factors like the age of the house, location, no. of bedrooms, no. of floors, infrastructure, etc.
 
 So in order to find a relationship between the input variables and the output we need to understand Multivariate linear regression.
 
@@ -18,7 +18,7 @@ This is quite similar to linear regression with one variable, but with multiple 
 
 **Notations**
 
-* x₁, x₂, …, xₙ denotes n features\(eg size of a house, no. of bedrooms, age of house etc\)
+* x₁, x₂, …, xₙ denotes n features\(eg size of a house, no. of bedrooms, age of the house, etc\)
 * y = the output variable to be predicted
 * n = the no. of features
 * m = no. of training examples

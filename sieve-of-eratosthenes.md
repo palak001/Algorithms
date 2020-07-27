@@ -34,13 +34,12 @@ This process can be further optimized by just running the loop from 2 to square 
 Well here’s why we do that thing:  
 If x \* y = N  
 then we can also write  
-x \* y = N = √N \* √N \
-If x ≤ √N, then y ≥ √N and vice-versa. Thus if x divides N, then you just don’t have to check if y also divides it, because it does.
+x \* y = N = √N \* √N  If x ≤ √N, then y ≥ √N and vice-versa. Thus if x divides N, then you just don’t have to check if y also divides it, because it does.
 
 ## Sieve of Eratosthenes <a id="b4d7"></a>
 
 The above discussed way worked just fine. But imagine finding all prime numbers up to N. In that case you will have to repeat above discussed approach for every number less than N. So time complexity will be **O\(N√N\)**.  
-That’s when **Sieve of Eratosthenes** comes into picture. It’s time complexity is O(n log log n).
+That’s when **Sieve of Eratosthenes** comes into picture. It’s time complexity is O\(n log log n\).
 
 I have a cool analogy.
 
@@ -56,8 +55,6 @@ In this algorithm,
 
 * Once we are sure a number is prime\(which second point will tell how\), _**We cross off all it’s multiple in the range.**_ Thus saving us time by not checking again if those multiples are prime when we are sure they aren’t\(because they already are divisible by our newly found prime number, so how can they be prime?\).
 * Also another thing that can be easily concluded is, Starting from the beginning, if we find that the number has so far not been _crossed off_, then it just won’t be anytime in the future\(because there is no one\(except 1\) that can divide it properly\)! Hence is prime.
-
-
 
 ![Source: Internet](https://miro.medium.com/max/1750/0*auO27notXYgAZXUP.gif)
 
@@ -102,7 +99,7 @@ void print_all_primes(int n) {
   const int S = 10000;           // block size
   vector<int> primes; 
   int nsqrt = sqrt(n);
-            
+
   // Simple Sieve for finding prime numbers up to sqrt n
   vector<bool> is_prime(nsqrt + 1, true); 
   for (int i = 2; i <= nsqrt; i++) { 
@@ -112,7 +109,7 @@ void print_all_primes(int n) {
         is_prime[j] = false; 
       } 
   } 
- 
+
   vector<bool> block(S); 
   for (int k = 0; k * S <= n; k++) { 
     fill(block.begin(), block.end(), true); 
@@ -153,6 +150,5 @@ Actually we have already done it. In segmented sieve, we have divided our big ra
 Now we are just provided with one random block. All we have to do is, Print prime numbers from that block.  
 Try doing it yourself!
 
-For any help, see how I solved a [similar problem.](https://github.com/palak001/CP-solutions/blob/master/spoj/2.PRIME1.cpp)  
-
+For any help, see how I solved a [similar problem.](https://github.com/palak001/CP-solutions/blob/master/spoj/2.PRIME1.cpp)
 
