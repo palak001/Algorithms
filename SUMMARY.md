@@ -6,4 +6,5 @@
 * [Linear Regression in one variable](linear-regression-in-one-variable.md)
 * [Linear Regression With Multiple Variables](linear-regression-with-multiple-variables-1.md)
 * [Deep Insights Into K-nearest Neighbors](deep-insights-into-k-nearest-neighbors.md)
+* [Understanding the iterative version of Binary Exponentiation](understanding-the-iterative-version-of-binary-exponentiation.md)
 
